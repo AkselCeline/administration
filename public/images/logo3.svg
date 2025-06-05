@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="200" height="200">
+  <!-- Fond transparent -->
+  <rect width="512" height="512" fill="transparent" />
+
+  <!-- Écran de l’ordinateur -->
+  <rect x="64" y="96" width="384" height="240" rx="20" fill="#0b355b"/>
+  <rect x="96" y="128" width="320" height="176" rx="10" fill="#fefaf0"/>
+
+  <!-- Drapeau de l’Algérie simplifié -->
+  <circle cx="256" cy="216" r="64" fill="#006233"/>
+  <path d="M256 152 A64 64 0 1 1 256 280 Z" fill="#d21034"/>
+  <polygon points="256,192 264,216 288,216 268,232 276,256 256,240 236,256 244,232 224,216 248,216"
+    fill="#ffffff" />
+
+  <!-- Base du laptop -->
+  <rect x="112" y="336" width="288" height="24" rx="6" fill="#0b355b" />
+
+  <!-- Texte -->
+  <text x="50%" y="410" text-anchor="middle" font-size="36" font-family="Arial, sans-serif" fill="#0b355b">
+    ADMINISTRATION
+  </text>
+  <text x="50%" y="455" text-anchor="middle" font-size="48" font-weight="bold" font-family="Arial, sans-serif" fill="#0b355b">
+    DZ
+  </text>
+</svg>

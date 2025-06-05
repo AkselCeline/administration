@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="200" height="200">
+  <!-- Fond transparent -->
+  <rect width="512" height="512" fill="transparent" />
+
+  <!-- Écran de l’ordinateur -->
+  <rect x="64" y="96" width="384" height="240" rx="20" fill="#0b355b"/>
+  <rect x="96" y="128" width="320" height="176" rx="10" fill="#fefaf0"/>
+
+  <!-- Icône de document à la place du drapeau -->
+  <rect x="208" y="168" width="96" height="120" rx="8" fill="#ffffff" stroke="#006233" stroke-width="4"/>
+  <line x1="220" y1="184" x2="292" y2="184" stroke="#006233" stroke-width="3"/>
+  <line x1="220" y1="200" x2="292" y2="200" stroke="#006233" stroke-width="3"/>
+  <line x1="220" y1="216" x2="292" y2="216" stroke="#006233" stroke-width="3"/>
+  <line x1="220" y1="232" x2="260" y2="232" stroke="#006233" stroke-width="3"/>
+
+  <!-- Base du laptop -->
+  <rect x="112" y="336" width="288" height="24" rx="6" fill="#0b355b" />
+
+  <!-- Texte -->
+  <text x="50%" y="410" text-anchor="middle" font-size="36" font-family="Arial, sans-serif" fill="#0b355b">
+    ADMINISTRATION
+  </text>
+  <text x="50%" y="455" text-anchor="middle" font-size="48" font-weight="bold" font-family="Arial, sans-serif" fill="#0b355b">
+    DZ
+  </text>
+</svg>

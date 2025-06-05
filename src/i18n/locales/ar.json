@@ -1,0 +1,42 @@
+{
+  "title": "إدارة الجزائر",
+  "searchPlaceholder": "ابحث...",
+  "footer": "© 2025 إدارة الجزائر - جميع الحقوق محفوظة",
+
+  "welcomeMessage": "مرحبًا بك في إدارة الجزائر",
+  "welcomeDescription": "يمكنك الوصول بسرعة إلى المعلومات الإدارية الجزائرية من خلال موقع حديث وسهل الاستخدام.",
+  "explorer": "استكشاف",
+  "actualites": "الأخبار",
+  "news1": "بطاقة الهوية الوطنية الجديدة",
+  "news2": "خدمات إلكترونية متوفرة",
+  "news3": "إشعارات للمواطنين",
+
+  "etatCivil": "الحالة المدنية",
+  "birthCertificate": "شهادة الميلاد",
+  "marriageCertificate": "شهادة الزواج",
+  "deathCertificate": "شهادة الوفاة",
+
+  "demarches": "الإجراءات",
+  "passport": "طلب جواز السفر",
+  "identityCard": "بطاقة التعريف الوطنية",
+  "housing": "طلب السكن",
+
+  "fiches": "دليل عملي",
+  "amanaAccount": "إنشاء حساب أمانة",
+  "universityRegistration": "التسجيل في الجامعة",
+
+  "etranger": "الجالية بالخارج",
+  "consulate": "الخدمات القنصلية",
+  "definitiveReturn": "العودة النهائية",
+  "passportRenewal": "تجديد جواز السفر",
+
+  "nav": {
+    "home": "الرئيسية",
+    "news": "الأخبار",
+    "civil_status": "الحالة المدنية",
+    "procedures": "الإجراءات",
+    "guides": "معلومات مفيدة",
+    "foreign": "الأجانب"
+  }
+}
+

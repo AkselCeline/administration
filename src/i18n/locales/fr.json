@@ -1,0 +1,42 @@
+{
+  "title": "Administration DZ",
+  "searchPlaceholder": "Rechercher...",
+  "footer": "© 2025 Administration DZ - Tous droits réservés",
+
+  "welcomeMessage": "Bienvenue sur Administration DZ",
+  "welcomeDescription": "Accédez rapidement aux informations administratives algériennes grâce à un site clair et moderne.",
+  "explorer": "Explorer",
+
+  "actualites": "Actualités",
+  "news1": "Nouvelle carte d'identité",
+  "news2": "Services en ligne disponibles",
+  "news3": "Avis aux citoyens",
+
+  "etatCivil": "État civil",
+  "birthCertificate": "Acte de naissance",
+  "marriageCertificate": "Certificat de mariage",
+  "deathCertificate": "Acte de décès",
+
+  "demarches": "Démarches",
+  "passport": "Demande de passeport",
+  "identityCard": "Carte nationale d'identité",
+  "housing": "Demande de logement",
+
+  "fiches": "Fiches pratiques",
+  "amanaAccount": "Créer un compte Amana",
+  "universityRegistration": "S'inscrire à l'université",
+
+  "etranger": "Étranger",
+  "consulate": "Services consulaires",
+  "definitiveReturn": "Retour définitif",
+  "passportRenewal": "Renouvellement de passeport",
+
+  "nav": {
+    "home": "Accueil",
+    "news": "Actualités",
+    "civil_status": "État Civil",
+    "procedures": "Démarches",
+    "guides": "Fiches Pratiques",
+    "foreign": "Étranger"
+  }
+}
