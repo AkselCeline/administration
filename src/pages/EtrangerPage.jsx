@@ -20,14 +20,22 @@ export default function EtrangerPage() {
                 </ul>
             </CollapseSection>
 
+
             <CollapseSection title="🛂 Demande de visa">
                 <ul className="list-disc pl-5 space-y-1 text-blue-700">
                     <li><Link to="/etranger/visa">Demande de visa pour l'Algérie</Link></li>
                 </ul>
             </CollapseSection>
+
+            <CollapseSection title="🏛️ Annuaire des consulats algériens en France">
+                <ul className="list-disc pl-5 space-y-1 text-blue-700">
+                    <li><Link to="/etranger/annuaire-consulats">📍 Afficher les consulats sur la carte</Link></li>
+                    <li><Link to="/etranger/liste-consulats">📄 Liste complète des consulats</Link></li>
+                    <li><Link to="/etranger/recherche-consulat">🔎 Trouver mon consulat par ville ou code postal</Link></li>
+                </ul>
+            </CollapseSection>
         </div>
     );
-
 
 
 }

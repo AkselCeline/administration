@@ -6,6 +6,9 @@ import EtatCivilPage from "./pages/EtatCivilPage";
 import DemarchesPage from "./pages/DemarchesPage";
 import FichesPage from "./pages/FichesPage";
 import EtrangerPage from "./pages/EtrangerPage";
+import CarteConsulats from './pages/CarteConsulats';
+import ListeConsulats from './pages/ListeConsulats';
+import RechercheConsulat from './pages/RechercheConsulat';
 import Passeport from "./pages/etranger/prestationConsulaires/Passeport";
 import PasseportUrgence from "./pages/etranger/prestationConsulaires/PasseportUrgence";
 import Immatriculation from "./pages/etranger/prestationConsulaires/Immatriculation";
@@ -19,6 +22,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Login from "./pages/Login";
 import ProtectedLayout from "./components/ProtectedLayout";
+
 
 export default function App() {
     return (
@@ -50,6 +54,9 @@ export default function App() {
                                     <Route path="/etranger/transfert-dossier-consulaire" element={<TransfertDossier />} />
                                     <Route path="/etranger/visa" element={<Visa />} />
                                     <Route path="/etranger/ccr" element={<CCR />} />
+                                    <Route path="/etranger/annuaire-consulats" element={<CarteConsulats />} />
+                                    <Route path="/etranger/liste-consulats" element={<ListeConsulats />} />
+                                    <Route path="/etranger/recherche-consulat" element={<RechercheConsulat />} />
                                 </Routes>
                                 <Footer />
                             </>
