@@ -6,10 +6,15 @@ import EtatCivilPage from "./pages/EtatCivilPage";
 import DemarchesPage from "./pages/DemarchesPage";
 import FichesPage from "./pages/FichesPage";
 import EtrangerPage from "./pages/EtrangerPage";
-import Passeport from "./pages/etranger/Passeport";
+import Passeport from "./pages/etranger/prestationConsulaires/Passeport";
+import PasseportUrgence from "./pages/etranger/prestationConsulaires/PasseportUrgence";
+import Immatriculation from "./pages/etranger/prestationConsulaires/Immatriculation";
+import CarteNationale from "./pages/etranger/prestationConsulaires/CarteNationale";
+import DeclarationPerte from "./pages/etranger/prestationConsulaires/DeclarationPerte";
+import Radiation from "./pages/etranger/prestationConsulaires/Radiation";
+import TransfertDossier from "./pages/etranger/prestationConsulaires/TransfertDossier";
 import Visa from "./pages/etranger/Visa";
-import ActeNaissance from "./pages/etranger/ActeNaissance";
-import CCR from "./pages/etranger/CCR";
+import CCR from "./pages/etranger/prestationConsulaires/CCR";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Login from "./pages/Login";
@@ -37,8 +42,13 @@ export default function App() {
                                     <Route path="/fiches" element={<FichesPage />} />
                                     <Route path="/etranger" element={<EtrangerPage />} />
                                     <Route path="/etranger/passeport" element={<Passeport />} />
+                                    <Route path="/etranger/Passeport-urgence" element={<PasseportUrgence />} />
+                                    <Route path="/etranger/carte-nationale" element={<CarteNationale />} />
+                                    <Route path="/etranger/immatriculation" element={<Immatriculation />} />
+                                    <Route path="/etranger/declaration-perte" element={<DeclarationPerte />} />
+                                    <Route path="/etranger/radiation" element={<Radiation />} />
+                                    <Route path="/etranger/transfert-dossier-consulaire" element={<TransfertDossier />} />
                                     <Route path="/etranger/visa" element={<Visa />} />
-                                    <Route path="/etranger/acte-naissance" element={<ActeNaissance />} />
                                     <Route path="/etranger/ccr" element={<CCR />} />
                                 </Routes>
                                 <Footer />

@@ -9,8 +9,13 @@ export default function EtrangerPage() {
 
             <CollapseSection title="🛃 Services consulaires">
                 <ul className="list-disc pl-5 space-y-1 text-blue-700">
-                    <li><Link to="/etranger/passeport">Renouvellement de passeport</Link></li>
-                    <li><Link to="/etranger/acte-naissance">Acte de naissance 12S</Link></li>
+                    <li><Link to="/etranger/passeport">Passeport</Link></li>
+                    <li><Link to="/etranger/passeport-urgence">Passeport d’Urgence</Link></li>
+                    <li><Link to="/etranger/immatriculation">Immatriculation consulaire</Link></li>
+                    <li><Link to="/etranger/carte-nationale">La carte nationale d’identité</Link></li>
+                    <li><Link to="/etranger/transfert-dossier-consulaire">Transfert de dossier consulaire</Link></li>
+                    <li><Link to="/etranger/declaration-perte">Déclaration de perte</Link></li>
+                    <li><Link to="/etranger/radiation">Radiation des registres d’immatriculation</Link></li>
                     <li><Link to="/etranger/ccr">Certificat de changement de résidence (CCR)</Link></li>
                 </ul>
             </CollapseSection>
