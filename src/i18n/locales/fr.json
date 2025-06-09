@@ -30,6 +30,168 @@
   "consulate": "Services consulaires",
   "definitiveReturn": "Retour définitif",
   "passportRenewal": "Renouvellement de passeport",
+  "biometricTracking": "📍 Suivi des documents biométriques",
+  "trackAlgerianPassport": "🛂 Suivi de la demande de passeport biométrique algérien",
+  "trackAlgerianIDCard": "🪪 Suivi de la demande d'une carte d'identité biométrique",
+  "trackDrivingLicense": "🚘 Suivi de la demande d'un permis de conduire",
+
+  "vehicleRegistrationCard": "Carte d'immatriculation des véhicules",
+  "vehicleRegistrationDescription": "Voici les informations principales concernant la demande de la carte d'immatriculation des véhicules en Algérie :",
+  "vehicleRegistrationRequiredDocuments": "Documents requis :",
+  "vehicleRegistrationResidenceCertificate": "Fiche de résidence (sauf cas particuliers)",
+  "vehicleRegistrationSaleCertificate": "Certificat de vente ou facture d'achat",
+  "vehicleRegistrationConformityCertificate": "Certificat de conformité ou procès-verbal de réception technique",
+  "vehicleRegistrationInsurance": "Assurance automobile en cours de validité",
+  "vehicleRegistrationID": "Pièce d'identité du propriétaire",
+  "vehicleRegistrationNIF": "Numéro d'identification fiscale (NIF)",
+  "vehicleRegistrationProofOfAddress": "Justificatif de domicile",
+  "vehicleRegistrationMoreInfo": "En savoir plus sur le site officiel du Ministère de l'Intérieur",
+
+  "vehicleRegistrationCases": {
+    "case1": {
+      "title": "En cas de réimmatriculation du véhicule dans la même wilaya",
+      "requirements": [
+        "Carte d’immatriculation barrée"
+      ]
+    },
+    "case2": {
+      "title": "En cas de réimmatriculation de véhicule transféré dans une autre wilaya",
+      "requirements": [
+        "Carte d’immatriculation barrée",
+        "Fiche de contrôle délivrée par la wilaya de la dernière immatriculation"
+      ]
+    },
+    "case3": {
+      "title": "En cas de demande d’immatriculation de véhicules neufs acquis auprès des concessionnaires implantés sur le territoire national",
+      "requirements": [
+        "Carte d’immatriculation provisoire",
+        "Contrat de vente délivré par le concessionnaire déterminant toutes les caractéristiques techniques du véhicule, et comportant les informations concernant le dédouanement"
+      ]
+    },
+    "case4": {
+      "title": "En cas de demande d’immatriculation des véhicules neufs acquis auprès des constructeurs ou des sociétés chargées de faire le montage des véhicules en Algérie",
+      "requirements": [
+        "Carte d’immatriculation provisoire",
+        "Attestation de vente, délivrée par le constructeur ou la société chargée de faire le montage des véhicules en Algérie, déterminant toutes les caractéristiques techniques du véhicule"
+      ]
+    },
+    "case5": {
+      "title": "En cas de demande d’immatriculation de véhicule acquis auprès des administrations publiques (douanes et domaines) et dans le cadre de la vente aux enchères par un commissaire priseur",
+      "requirements": [
+        "Attestation de vente délivrée par l’administration concernée (douanes, domaines) ou le commissaire priseur comportant les données concernant le véhicule",
+        "Carte d’immatriculation barrée si la vente est effectuée par un commissaire priseur, carte d’immatriculation si la vente est réalisée par l’administration des douanes et des domaines",
+        "Procès verbal de réception à titre isolé délivré par les services des mines préalablement à la vente",
+        "Certificat d’identification du véhicule délivré préalablement à la vente, par les services des mines"
+      ]
+    },
+    "case6": {
+      "title": "En cas de demande d’immatriculation du véhicule vendu sur décision de justice par un commissaire priseur",
+      "requirements": [
+        "Carte d’immatriculation barrée",
+        "Jugement définitif ordonnant la vente du véhicule",
+        "Attestation de vente délivrée par le commissaire priseur",
+        "Fiche de contrôle, s’il s’agit d’un transfert d’une wilaya à une autre"
+      ]
+    },
+    "case7": {
+      "title": "En cas de demande d’immatriculation de véhicule acquis auprès des représentations diplomatiques et des organisations internationales et régionales accréditées en Algérie",
+      "requirements": [
+        "Procès verbal de réception à titre isolé délivré par les services des mines préalablement à la vente",
+        "Copie de l’autorisation de revente délivrée par les services du Ministère des Affaires Étrangères visée par les services des douanes, dûment légalisée",
+        "Certificat de dédouanement"
+      ]
+    },
+    "case8": {
+      "title": "En cas de perte ou de détérioration de la carte d’immatriculation et demande de duplicata",
+      "requirements": [
+        "Déclaration de perte ou de vol faite auprès du service de sécurité compétent où il y a eu lieu la perte ou le vol de la carte",
+        "Carte d’immatriculation détériorée si elle est identifiable. En cas d’impossibilité d’identifier les données de la carte, une déclaration de perte auprès des services de sécurité territorialement compétents"
+      ]
+    },
+    "case9": {
+      "title": "En cas de décès du propriétaire",
+      "requirements": [
+        "Carte d’immatriculation barrée",
+        "Acte de décès délivré par le notaire",
+        "Procuration établie par acte notarié au profit d’un héritier",
+        "Fiche de contrôle, s’il s’agit d’un transfert d’une wilaya à une autre"
+      ]
+    },
+    "case10": {
+      "title": "En cas de changement de résidence du propriétaire",
+      "requirements": [
+        "Carte d’immatriculation",
+        "Fiche de contrôle, s’il s’agit d’un transfert d’une wilaya à une autre"
+      ]
+    },
+    "case11": {
+      "title": "En cas de demande d’immatriculation de véhicules ayant subi des transformations notables conformément à la réglementation en vigueur",
+      "requirements": [
+        "Carte d’immatriculation barrée",
+        "Document attestant la nature des transformations effectuées",
+        "Procès verbal de réception à titre isolé délivré par les services des mines"
+      ]
+    },
+    "case12": {
+      "title": "En cas d'immatriculation de véhicules reconstitués à partir de véhicules radiés du registre des immatriculations",
+      "requirements": [
+        "Certificat de radiation du véhicule (justification du châssis du véhicule) délivré par les services des mines",
+        "Déclaration de destruction accompagnée de la carte d’immatriculation barrée conformément à l’article 175 du décret exécutif n° 04-381 du 28 novembre 2004",
+        "En cas de destruction du véhicule par les services compétents, le propriétaire doit déposer, à la commune, la daïra, la circonscription administrative ou la wilaya -Direction de la Réglementation et des Affaires Générales territorialement compétente du lieu de l’immatriculation du véhicule, dans les quinze (15) jours qui suivent, une déclaration écrite accompagnée de la carte d’immatriculation barrée contre accusé de réception"
+      ]
+    },
+    "case13": {
+      "title": "En cas d'immatriculation provisoire de véhicules neufs par les concessionnaires agréés implantés sur le territoire national",
+      "requirements": [
+        "Demande d’immatriculation provisoire formulée par le concessionnaire",
+        "Liste de colisage des véhicules concernés, dûment visée par les services des mines",
+        "Copie du contrat de concession cité dans l’article 02 du décret exécutif n° 15-58 du 08/02/2015",
+        "Copie légalisée du registre de commerce",
+        "Procès-verbal de réception par type des véhicules concernés",
+        "Facture d’achat des véhicules",
+        "Avis d’arrivée des véhicules délivré par l’entreprise portuaire",
+        "Copie de la carte d’identification fiscale",
+        "Lors du dépôt de la première demande de liste, le concessionnaire doit déposer également une copie de l’agrément définitif auprès des services concernés de la wilaya territorialement compétente",
+        "Il doit communiquer chaque année, l’adresse du lieu de son implantation (siège social) à la wilaya territorialement compétente"
+      ]
+    },
+    "case14": {
+      "title": "En cas d'immatriculation provisoire de véhicules neufs produits par les constructeurs ou par les sociétés chargées de faire le montage des véhicules en Algérie accrédités implantés sur le territoire national",
+      "requirements": [
+        "Demande d’immatriculation provisoire formulée par le constructeur ou par les sociétés chargées de faire le montage des véhicules",
+        "Document de dédouanement",
+        "Liste de colisage des véhicules concernés dûment visée par les services des mines",
+        "Certificat d’accréditation par le constructeur",
+        "Copie légalisée du registre de commerce",
+        "Procès-verbal de réception par type des véhicules concernés",
+        "Certificat de conformité délivré par les services compétents",
+        "Copie de la carte d’identification fiscale",
+        "Lors du dépôt de la première demande de liste, le constructeur ou la société chargée de monter des véhicules en Algérie doit déposer une copie de l’agrément auprès des services concernés de la wilaya territorialement compétente",
+        "Il doit communiquer chaque année, l’adresse du lieu de son implantation (siège social) à la wilaya territorialement compétente"
+      ]
+    },
+    "case15": {
+      "title": "En cas de demande d’immatriculation de véhicule appartenant aux coopérants étrangers liés par contrat",
+      "requirements": [
+        "Véhicule importé neuf ou occasion :",
+        "Certificat d’immatriculation délivré par les autorités étrangères concernées et certificat de conformité délivré par le constructeur ou le concessionnaire pour le véhicule neuf, pour le véhicule d’occasion, certificat d’immatriculation du pays de provenance",
+        "Facture d’achat ou acte de vente",
+        "Certificat de travail ou pièce justificative de l’activité",
+        "Quittance de garantie délivrée par les services des douanes",
+        "Procès-verbal de réception à titre isolé délivré par les services des mines",
+        "Copie de l’acte de naissance ou copie du passeport en cours de validité",
+        "Certificat de résidence n°2",
+        "Vente des véhicules entre coopérants étrangers liés par contrat :",
+        "Carte d’immatriculation barrée",
+        "Acte de vente certifié",
+        "Quittance de garantie au nom du nouveau propriétaire",
+        "Certificat de résidence n°2",
+        "Fiche de contrôle pour les véhicules en provenance d’une autre wilaya",
+        "Certificat de travail ou pièce justificative de l’activité",
+        "Copie de l’acte de naissance ou copie du passeport en cours de validité"
+      ]
+    }
+  },
 
   "nav": {
     "home": "Accueil",
@@ -38,5 +200,109 @@
     "procedures": "Démarches",
     "guides": "Fiches Pratiques",
     "foreign": "Étranger"
+  },
+
+  "minorTravelAbroad": "Sortie des mineurs à l'étranger",
+  "minorTravelCases": {
+    "withKafil": {
+      "title": "Sortie de l’enfant mineur makfoul avec le titulaire du droit de recueil légal (Kafil)",
+      "requirements": [
+        "Document de voyage",
+        "L’acte de recueil légal (Kafala) établi par le juge ou le notaire",
+        "Copie de ce même acte qui sera conservée par les services compétents de la Sûreté Nationale",
+        "Observation : Si l’acte de recueil légal mentionne les deux époux, chacun peut accompagner l’enfant"
+      ]
+    },
+    "withSpouseNotOnKafala": {
+      "title": "Sortie de l’enfant mineur makfoul avec le conjoint ne figurant pas sur l’acte de recueil légal (Kafala)",
+      "requirements": [
+        "Document de voyage",
+        "Autorisation du kafil légalisée au profit de son conjoint pour accompagner l’enfant",
+        "Copie de l’acte de recueil légal"
+      ]
+    },
+    "withOtherPerson": {
+      "title": "Sortie de l’enfant mineur makfoul avec une autre personne",
+      "requirements": [
+        "Document de voyage",
+        "Autorisation du kafil légalisée au profit de cette personne pour accompagner l’enfant",
+        "Copie de l’acte de recueil légal"
+      ]
+    },
+    "alone": {
+      "title": "Sortie de l’enfant mineur makfoul seul",
+      "requirements": [
+        "Document de voyage",
+        "Autorisation du kafil légalisée autorisant l’enfant à sortir seul du territoire",
+        "Copie de l’acte de recueil légal"
+      ]
+    }
+  },
+
+  "nationalIDCard": "Carte nationale d'identité",
+  "nationalIDCardInfo": {
+    "introduction": "Le dépôt des dossiers de demande de la carte nationale d’identité s’effectue au niveau d’une des communes de la wilaya de résidence pour les citoyens résidants sur le territoire national ou, auprès des postes diplomatiques et consulaires.",
+    "requestFile": {
+      "title": "Composition du dossier de demande",
+      "residingInAlgeria": {
+        "title": "Demandeurs résidant en Algérie",
+        "requirements": [
+          "Formulaire rempli et signé par l’intéressé ou par le tuteur légal pour les mineurs",
+          "Certificat de nationalité algérienne",
+          "Certificat de résidence en cours de validité",
+          "Deux photos d’identité en couleur, numériques, récentes et identiques (fond uni blanc)"
+        ]
+      },
+      "residingAbroad": {
+        "title": "Demandeurs résidant à l'étranger",
+        "requirements": [
+          "Formulaire rempli et signé par l’intéressé ou par le tuteur légal pour les mineurs",
+          "Carte d’immatriculation consulaire en cours de validité",
+          "Certificat de nationalité",
+          "Deux photos d’identité en couleur, numériques, récentes et identiques (fond uni blanc)"
+        ]
+      }
+    },
+    "withdrawal": {
+      "title": "Retrait de la carte",
+      "steps": [
+        "Le retrait du document demandé s’effectue par le demandeur lui-même",
+        "Vérification des informations personnelles imprimées, en présence du demandeur",
+        "Remise du document contre signature d’un accusé de réception"
+      ]
+    },
+    "renewal": {
+      "title": "Renouvellement de la carte nationale d’identité",
+      "reasons": [
+        "Trois mois avant l’expiration de la carte",
+        "Changement d’information sur l’état civil",
+        "Le mineur atteint l’âge de 19 ans",
+        "Carte perdue, détériorée ou volée"
+      ],
+      "notes": [
+        "Dans le premier cas, l’ancienne carte est restituée lors du retrait de la nouvelle",
+        "En cas de perte/vol/détérioration, une déclaration est exigée auprès des services compétents"
+      ],
+      "renewalFile": {
+        "title": "Dossier de renouvellement",
+        "requirements": [
+          "Formulaire rempli et signé par l’intéressé ou le tuteur légal",
+          "Carte expirée ou déclaration de perte, de vol ou de détérioration",
+          "Certificat de résidence si changement de résidence",
+          "Une photo d’identité récente (fond uni blanc)"
+        ]
+      }
+    },
+    "validity": {
+      "title": "Durée de validité",
+      "details": "10 ans pour les majeurs, 5 ans pour les mineurs"
+    },
+    "forms": {
+      "title": "Formulaires",
+      "withPassport": "Pour les personnes ayant un passeport biométrique",
+      "withoutPassport": "Pour les personnes n’ayant pas de passeport biométrique"
+    }
+
   }
+
 }
